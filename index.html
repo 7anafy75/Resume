@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>document.createElement("myHero")</script>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+
+    <style>
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 12px rgba(51, 204, 255, 0.2);
+            }
+            50% {
+                box-shadow: 0 0 12px rgba(51, 204, 255, 0.9);
+            }
+            100% {
+                box-shadow: 0 0 12px rgba(51, 204, 255, 0.2);
+            }
+        }
+
+        .myHero {
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+            font-size: 30px;
+            color: white;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+            url("Images/Code-background.png")
+        }
+
+        #Statusphere {
+            background: skyblue;
+            max-width: 50px;
+            border-radius: 50%;
+        }
+
+
+        .profile-pic {
+            border-radius: 50%;
+            border-style: solid;
+            border-color: gainsboro;
+            border-width: 5px;
+
+        }
+
+        body {
+            margin: 0px;
+            font-family: 'Noto Sans', sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .intro {
+            font-size: 25px;
+            font-style: bold;
+            text-align: center;
+            max-width: 700px;
+        }
+
+        .summary {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .experience {
+            display: flex;
+            flex-direction: row;
+            font-size: 25px;
+            max-width: 1000px;
+
+        }
+
+        .logo {
+            margin: 25px;
+        }
+
+        .list {
+            color: grey;
+            line-height: 2.0;
+        }
+
+        .mainBody {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .skills {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            font-size: 25px;
+        }
+
+        .skills p {
+            box-shadow: 0 0 12px rgba(51, 204, 255, 0.5);
+            animation-name: pulse;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="myHero">
+        <img class="profile-pic" src="Images/tarek.jpg" alt="Error" height="220" width="200">
+        <br /> Tarek Dergham
+        <br /> Software Engineer Intern
+        <br /> Statusphere
+        <br /> Orlando, Florida
+    </div>
+    <div class="summary">
+
+        <p class="intro">
+            Information Technology graduate who is passionate about building user interfaces. Enjoys learning new platforms to expand
+            application capabilities. Experienced with HTML/CSS, JavaScript as well as ReactNative and ReactJS. Actively
+            looking for opportunities to deepen IT skills and launch career in software development.
+        </p>
+    </div>
+    <div class="mainBody">
+        <h1>Experience</h1>
+        <div class="experience">
+            <div class="logo">
+                <img id="Statusphere" src="Images/statusphere-mark.svg" alt="logo" />
+            </div>
+            <div>
+                <h3>Software Engineer</h3>
+                <p>Statusphere, Orlando,Fl</p>
+                <p>Oct 2017 - present</p>
+                <p>
+                    <ul class="list">
+                        <li>
+                            Built and designed websites and mobile applications for both Android and IOS platforms. Worked primarily with ReactNative
+                            and ReactJS using styled-components.
+                        </li>
+                        <li>
+                            Experienced with connecting React components with React-router as well as debugging and troubleshooting. Delegated node project
+                            to be deployed using Heroku.
+                        </li>
+
+                    </ul>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="experience">
+            <div class="logo">
+                <img src="Images/Udacity-logo.png" alt="logo" />
+            </div>
+            <div>
+                <h3>Udacity Android Developer Courses</h3>
+                <p>Udacity.com</p>
+                <p>2017</p>
+                <p>
+                    <ul class="list">
+                        <li>Android User Input (Coffee ordering app) Built Android Views using XML Wrote coffee price calculation
+                            Java code</li>
+                        <li>
+                            Multiple App Screens (Translation app) Built a multi-screen app using Activities and Intents Worked with ListViews and Adapters
+                        </li>
+                        <li>
+                            Android Networking Learned about JSON and REST APIs Learned about Retrofit and Gson for JSON parsing
+                        </li>
+
+
+                    </ul>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <h1>Skills</h1>
+    <div class="skills">
+          <p>HTML</p>
+    </div>
+
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
