@@ -1,0 +1,121 @@
+.myHero {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("Images/Code-background.png")
+}
+
+#statusphere {
+    background: skyblue;
+    max-width: 50px;
+    border-radius: 50%;
+}
+
+
+.profile-pic {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: 5px;
+
+}
+
+body {
+    margin: 0px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.intro {
+    font-size: 25px;
+    font-style: bold;
+    text-align: center;
+    max-width: 700px;
+}
+
+.summary {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.experience {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    max-width: 1000px;
+
+}
+
+.logo {
+    margin: 25px;
+}
+
+.list {
+    color: grey;
+    line-height: 2.0;
+}
+
+.mainBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills {
+    display: flex;
+    font-size: 25px;
+    width: 140px;
+    height: 50px;
+    transition: width 2s;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.skills:hover {
+    width: 650px;
+    font-style: bold;
+    font-size: 35px;
+    color: rgb(6, 175, 175);
+}
+
+.skillsList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactList {
+    display: flex;
+    flex-direction: column;
+    margin-right: 300px;
+}
+
+.eachContact {
+    display: flex;
+    flex-direction: inline;
+    max-width: 25px;
+    align-items: center;
+}
+
+.eachContact a {
+    margin: 25px;
+}
+
+.contactList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

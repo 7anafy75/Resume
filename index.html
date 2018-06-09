@@ -8,108 +8,7 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 
-    <style>
-        @keyframes pulse {
-            0% {
-                box-shadow: 0 0 12px rgba(51, 204, 255, 0.2);
-            }
-            50% {
-                box-shadow: 0 0 12px rgba(51, 204, 255, 0.9);
-            }
-            100% {
-                box-shadow: 0 0 12px rgba(51, 204, 255, 0.2);
-            }
-        }
-
-        .myHero {
-            display: flex;
-            flex-direction: column;
-            padding: 50px;
-            font-size: 30px;
-            color: white;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-            url("Images/Code-background.png")
-        }
-
-        #Statusphere {
-            background: skyblue;
-            max-width: 50px;
-            border-radius: 50%;
-        }
-
-
-        .profile-pic {
-            border-radius: 50%;
-            border-style: solid;
-            border-color: gainsboro;
-            border-width: 5px;
-
-        }
-
-        body {
-            margin: 0px;
-            font-family: 'Noto Sans', sans-serif;
-        }
-
-        h1 {
-            text-align: center;
-            font-size: 50px;
-        }
-
-        .intro {
-            font-size: 25px;
-            font-style: bold;
-            text-align: center;
-            max-width: 700px;
-        }
-
-        .summary {
-            display: flex;
-            text-align: center;
-            justify-content: center;
-        }
-
-        .experience {
-            display: flex;
-            flex-direction: row;
-            font-size: 25px;
-            max-width: 1000px;
-
-        }
-
-        .logo {
-            margin: 25px;
-        }
-
-        .list {
-            color: grey;
-            line-height: 2.0;
-        }
-
-        .mainBody {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .skills {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            font-size: 25px;
-        }
-
-        .skills p {
-            box-shadow: 0 0 12px rgba(51, 204, 255, 0.5);
-            animation-name: pulse;
-            animation-duration: 1.5s;
-            animation-iteration-count: infinite;
-            animation-timing-function: ease-in-out
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -133,7 +32,7 @@
         <h1>Experience</h1>
         <div class="experience">
             <div class="logo">
-                <img id="Statusphere" src="Images/statusphere-mark.svg" alt="logo" />
+                <img id="statusphere" src="Images/statusphere-mark.svg" alt="logo" />
             </div>
             <div>
                 <h3>Software Engineer</h3>
@@ -184,17 +83,49 @@
     </div>
 
     <h1>Skills</h1>
-    <div class="skills">
-        <p>HTML</p>
-    </div>
-
-
-
-
-
+    <div class="skillsList">
+        <div class="skills">
+            <p>JavaScript</p>
+        </div>
+        <div class="skills">
+            <p>ReactJS</p>
+        </div>
+        <div class="skills">
+            <p>ReactNative</p>
+        </div>
+        <div class="skills">
+            <p>HTML5</p>
+        </div>
+        <div class="skills">
+            <p>CSS3</p>
+        </div>
+        <div class="skills">
+                <p>Git</p>
+            </div>
     </div>
 
 
 </body>
+
+<footer>
+    <h1>Contact</h1>
+    <div class="contactList">
+        <div class="eachContact">
+            <img src="Images/Messages1.svg" alt="logo" />
+            <a href="mailto:dergham.it@gmail.com">
+                dergham.it@gmail.com</a>
+        </div>
+        <div class="eachContact">
+            <img src="Images/GitHub1.svg" alt="logo" />
+            <a href="https://github.com/7anafy75">
+                github.com/7anafy75</a>
+        </div>
+        <div class="eachContact">
+            <img src="Images/LinkedIn1.svg" alt="logo" />
+            <a href="https://www.linkedin.com/in/tarek-dergham-a17a8112b/">
+                linkedIn.com/in/TarekDergham</a>
+        </div>
+    </div>
+</footer>
 
 </html>
