@@ -3,7 +3,7 @@
     flex-direction: column;
     padding: 50px;
     font-size: 30px;
-    font-color: white;
+    color: white;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -29,13 +29,18 @@
 body {
     margin: 0px;
     font-family: 'Noto Sans', sans-serif;
-    background-color: lightblue;
+    background-color: #637e7f;
 
 }
 
 h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 35px;
+    color:skyblue;
+    text-decoration: underline;
+
+
+
 }
 
 .intro {
@@ -49,6 +54,8 @@ h1 {
     display: flex;
     text-align: center;
     justify-content: center;
+    color:white;
+
 }
 
 .experience {
@@ -56,15 +63,17 @@ h1 {
     flex-direction: row;
     font-size: 25px;
     max-width: 1000px;
+    color:white;
 
 }
 
 .logo {
     margin: 25px;
+    color:white;
 }
 
 .list {
-    color: black;
+    color: white;
     line-height: 2.0;
 }
 
@@ -83,6 +92,7 @@ h1 {
     justify-content: center;
     align-items: center;
     margin: 10px;
+    color: white;
 }
 
 .skills:hover {
