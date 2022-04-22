@@ -3,7 +3,7 @@
     flex-direction: column;
     padding: 50px;
     font-size: 30px;
-    color: black;
+    color: white;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -29,7 +29,8 @@
 body {
     margin: 0px;
     font-family: 'Noto Sans', sans-serif;
-    color:black;
+    background-color: lightblue;
+
 }
 
 h1 {
